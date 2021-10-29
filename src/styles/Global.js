@@ -22,12 +22,16 @@ const GlobalStyle = createGlobalStyle`
   }
   .calculatrice input {
     width: 100%;
-    height: 40px;
+    height: 60px;
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    text-align: right;
   }
   .controls {
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
   }
 `;
